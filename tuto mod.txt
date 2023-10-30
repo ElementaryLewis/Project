@@ -1,0 +1,56 @@
+
+FAQ help/problem:
+When you got a problem or you need help, we need to know first the following information:
+1. Are you on Classic 1.32 or Next Gen 4.04?
+2. What errors do you have?
+3. Which mods did you use?
+4. Did you merge all scripts and bundled text?
+5. Did you mod all by yourself or you follow a guide? (Don't say Sinitar)
+6. Did you install mod manually, with Witcher 3 Mod Manager, or with Vortex?
+7. Did you use Vortex Collection? (I yes, we can't help and we don't recommend)
+
+1.
+Not all mod can be used for any version. You can't blindly mix up different mod.
+If you are on Classic 1.32, you can only use published mod before 15th December 2022, or having the tag "Next Gen Incompatible". Some of them are both Next Gen and Classic, but the classic version could be found in the old files section or in separate mod page.
+If you are on Next Gen 4.04, find first if some "classic mod" have "Next Gen Compatible" tag (texture mod are automatically). Then for "not classic mod", check in the description, mod files or post, if the mod is compatible to 4.04 version. You can also check if they were updated since 19th July, or follow the tutorial "how to check outdated mod".
+2.
+You can't say "I have problem" without telling the problem (even if you try to be polite)
+The errors compilation may looks like foreigner language, but modders and programmer actually understand them. We can even tell the potential cause (for example: outdated mod) just by looking to the errors.
+If the errors is from [mod0000_mergedfiles], then it's likely caused by a wrong select from a merged conflict.
+If all errors are from [content0], then either one or multiple Next Gen mods are outdated. Or there is a mix up of Classic and Next Gen mods.
+3.
+Once we know the consequence of the problem, we might tell which mods could be the cause. We may even give mod suggestion or a better one.
+So always show the mod list.
+4.
+It's important for us you know how to use Script Merger.
+You must run Script Merger each time you installed, update, or remove, one single mod. And also must merge all scripts (unless it was specifically told not).
+We also need to know if you encounter merged conflict (looks like a big windows full of code, or opened from KDiff program).
+Like the errors compilation, modder and programmer undertand them and we can provide step and solution for solving merged conflict.
+5.
+Modding are complicated at first for newcommer, so it's natural for asking guidance. And some learned by themselves how to mod manually.
+So we need to know what's your situation in the modding process, so we can either propose a better guide, use technical words or give clarification.
+However, we strongly don't recommend Sinitar's Guide. Everything written there is wrong and will likely break the game.
+6.
+We also need to know the way you install mods, because each have pro and con:
+- Manual installation. Pro: Can install everything and even modify if necessary; Con: Cannot manage and difficult for someone not familliar in computer.
+- Witcher 3 Mod Manager. Pro: Allow to manage mod with easy installation, load order, files shortcut and script merger shortcut. Con: Offline programm and one error make it impossible to use unless we remove "extracted" folder in the Document/The witcher 3 Mod Manager
+- Vortex. Pro: Online program that allow to manage mod and even notify an update is avalaible. Con: Not designed to use for The Witcher 3, with the risk to break the game.
+7.
+Despite we are modder and we publish mods on Nexus. We hate very much Vortex!
+This mod manager doesn't fully manage most of mods (files installation and load order) or install uncessary patches which would instead break the game.
+But the worst about it is the "Vortex Collection": It's just a public shared mod list, but many of them are easily outdated or misguided.
+So it's like having no answer to the previous question. We can't help if the problem is from Vortex and the only solution is NOT USING Vortex.
+
+How to check which mods need to update and which don't.
+- Refer to the list I made that tells which scripts were updated by 4.04 patch.
+- Once you find the mod using one of the file, rename it with "~~" at the beginning. This will disable it.
+- Now wait at least 2 weeks until the mod creator update those mods. You can gently remind them to update but precise for which script and be polite.
+- If updated, you can remove the original mod and replace with the updated one.
+- If not, then either delete the mod... or update the mod by yourself.
+
+How to update mod to the last Next Gen version:
+- Tool required: Notepad++, with the comparator plugin.
+- Rename each script of the mod, for example "playerwitcher.ws" into "MOD_playerwitcher.ws"
+- Then find the original and vanilla script of the game, should be inside "The Witcher 3 Wild Hunt GOTY\content\content0\scripts". Copy/past to the mod.
+- Now using Notepadd++, open both the same script, compare them and apply the edited mod code to the 4.04 script. Double check with the Next Gen Changelog if everything is correct.
+- Finally, remove renamed script and keep the edited script you made. Congrats! You update the mod by yourself!!

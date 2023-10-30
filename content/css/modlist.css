@@ -1,0 +1,134 @@
+/* Mod List */
+.thumbnail{
+    display: block;
+    max-height: 250px;
+    max-width: 100%;
+    position: relative;
+    object-fit: cover;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+  }
+.title_list{
+    font-size: 300%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+  }
+.title_mod{
+    display: flex;
+    font-size: 30px;
+    height: 100px;
+    padding: auto;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+  }
+.description_mod{
+    font-size:100%;
+    margin: 20px;
+    padding: auto;
+    overflow: hidden;
+    position: relative;
+    -webkit-animation: fadeIn .25s;
+    animation: fadeIn .25s;
+    min-height: 90px;
+    max-height: 90px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: justify;
+  }
+.head_mod {
+    font-size: 300%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+.flex{
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+.mod_flex{
+    width: 30%;
+    padding: 15px;
+    border-style: solid;
+    margin: -1px;
+    padding: auto;
+  }
+  /* Reduce the flex into mobile size */
+@media only screen and (max-width: 1500px) {
+  .flex {
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .mod_flex{
+    width: 40%;
+    padding: 15px;
+    border-style: solid;
+    margin: -1px;
+    padding: auto;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .flex {
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .mod_flex{
+    width: 100%;
+    padding: 15px;
+    border-style: solid;
+    margin: -1px;
+    padding: auto;
+    position: relative;
+    object-fit: cover;
+  }
+}

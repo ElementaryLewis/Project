@@ -1,0 +1,11 @@
+/* Tutorial */
+.tutorial {
+  font-size:18px;
+  text-align:justify;
+  word-wrap: break-word;
+  white-space: pre-line;
+  box-sizing: border-box;
+  width: 70%;
+  padding: 25px;
+  margin: 25px;
+}
